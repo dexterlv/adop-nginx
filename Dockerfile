@@ -44,7 +44,7 @@ RUN mkdir /var/log/nginx \
 COPY templates/nginx/nginx.init /etc/init.d/nginx
 RUN chmod +x /etc/init.d/nginx
 
-EXPOSE 80 443
+EXPOSE 80 81 443
 
 # Adding base data
 RUN mkdir -p /resources/
