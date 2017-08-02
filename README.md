@@ -30,9 +30,10 @@ Runtime configuration can be provided using environment variables:
 * LDAP_USERNAME, the LDAP BASE_DN
 * LDAP_PASSWORD, the password to use connecting to LDAP service using the provided username 
 * LDAP_USER_BASE_DN, the LDAP user BASE_DN
-* LDAP_GROUP_ATTRIBUTE, LDAP object field attribute the defines group appartenence. 
-* LDAP_USER_ID_ATTRIBUTE, LDAP object field attribute the defines the user identifier. 
+* LDAP_GROUP_ATTRIBUTE, LDAP object field attribute the defines group appartenence
+* LDAP_USER_ID_ATTRIBUTE, LDAP object field attribute the defines the user identifier
 * LDAP_USER_OBJECT_CLASS, LDAP user object class
+* FRESH, bool parameter, specifies is it fresh installation, or container should reuse already existing config
 
 # License
 Please view [licence information](LICENCE.md) for the software contained on this image.
